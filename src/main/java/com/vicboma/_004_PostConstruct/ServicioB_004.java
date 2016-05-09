@@ -20,10 +20,10 @@ public class ServicioB_004 implements Servicio_004 {
     }
 
     @PostConstruct
-    public void postConfigure() {
+    public void PostConstruct() {
         System.out.println("@PostConstruct "+this.getClass().toString());
     }
-    
+
     @Override
     public String toString() {
         return PRE+" B_004";

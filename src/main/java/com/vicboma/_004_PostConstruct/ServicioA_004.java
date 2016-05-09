@@ -20,7 +20,7 @@ public class ServicioA_004 implements Servicio_004 {
     }
 
     @PostConstruct
-    public void postConfigure() {
+    public void PostConstruct() {
         System.out.println("@PostConstruct "+this.getClass().toString());
     }
 
